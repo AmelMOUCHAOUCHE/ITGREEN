@@ -1,0 +1,36 @@
+/* logements.css */
+
+/* Conteneur de l'image */
+.property-image {
+    width: 300px;  /* Largeur fixe */
+    height: 200px; /* Hauteur fixe */
+    overflow: hidden;  /* Cache les parties de l'image qui dépassent */
+    background-color: #f0f0f0; /* Couleur de fond */
+}
+
+/* Image elle-même */
+.property-image img {
+    width: 100%;  /* L'image occupe toute la largeur du conteneur */
+    height: 100%; /* L'image occupe toute la hauteur du conteneur */
+    object-fit: cover; /* Assure que l'image remplie le conteneur sans déformation */
+}
+
+/* Conteneur de contenu de la propriété */
+.property-content {
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère autour du contenu */
+}
+
+/* Prix de la propriété */
+.price {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Informations supplémentaires */
+.property-content .city {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
